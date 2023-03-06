@@ -1,7 +1,39 @@
-p {
-    color: red;
+
+$font-text: 'Roboto', Sans-Serif;
+$font-header: 'Lora', Serif;
+
+/*Global*/
+/**{border: 1px solid red }*/
+*, *::before, *::after {
+	box-sizing: border-box;
 }
-li {
-    display: inline-block;
-    
+
+body {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.7;
+    font-family: $font-text;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*navigation*/
+
+nav {
+    padding: 12px 0;
+    background-color: #708090;
+        ul {
+            list-style-type: none;
+        }
+        li {
+            display: inline-block;
+            margin-left: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
 }
