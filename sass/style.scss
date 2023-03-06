@@ -73,3 +73,23 @@ nav {
     color: #ffffff;
 
 }
+.services {
+    padding: 60px;
+    text-align: center;
+    i {
+        font-size: 32px;
+        margin: 30px 0;
+        padding: 20px;
+        border: 2px solid;
+        border-radius: 50%;
+        color: $colot-two;
+        
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 48px;
+    }
+    h3 {
+        font-weight: bold;
+    }
+}
