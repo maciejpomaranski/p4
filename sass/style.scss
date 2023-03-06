@@ -1,3 +1,5 @@
+$color-one: #ffffff; 
+$colot-two: #708090;
 
 $font-text: 'Roboto', Sans-Serif;
 $font-header: 'Lora', Serif;
@@ -34,6 +36,40 @@ nav {
         }
         a{
             text-decoration: none;
-            color: white;
+            color: $color-one;
         }
+}
+
+/*splash*/
+.splash {
+    background-image: url(https://images.pexels.com/photos/604969/pexels-photo-604969.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+}
+.splash-inner {
+    color:$color-one;
+    margin: auto;
+    text-align: center;
+        h1 {
+            font-size: 72px;
+            font-weight: 900;
+            font-family: $font-header;
+        }
+}
+.btn {
+    display: inline-block;
+    width: 140px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-text;
+    text-align: center;
+    text-decoration: none;
+    background-color: #708090;
+    font-size: 16px;
+    color: #ffffff;
+
 }
