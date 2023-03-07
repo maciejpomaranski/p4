@@ -21,6 +21,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
 h2 {
     font-weight: bold;
     font-size: 48px;
@@ -96,5 +97,18 @@ nav {
    
 }
 .portfolio {
+    background-color: rgba(240, 235, 230, 0.555);
     text-align: center;
+    padding: 50px;
+    img {
+        width: 100%;
+    }
+    .box {
+        margin: 30px auto;
+        
+    }
+
+        
 }
+   
+
