@@ -46,6 +46,8 @@ nav {
             text-decoration: none;
             color: $color-one;
         }
+        
+
 }
 
 /*splash*/
@@ -78,9 +80,13 @@ nav {
     text-decoration: none;
     background-color: #708090;
     font-size: 16px;
-    color: #ffffff;
+    color: $color-one;
 
 }
+
+/*SERWICES*/
+
+
 .services {
     padding: 60px;
     text-align: center;
@@ -111,4 +117,31 @@ nav {
         
 }
    
+footer {
+    padding: 40px 0;
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline-block;
+        line-height: 60px;
+        width: 60px;
+        text-align: center;
+    }
+    i {
+        font-size: 32px;
+        padding: 15px;
+        border: 2px;
+        border-radius: 50%;
+        background-color: #708090;
+        color: $color-one;
+        margin: auto;
+        
+        
+    }
+    p {
+        text-align: center;
+    }
+    
 
+}
