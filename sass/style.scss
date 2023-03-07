@@ -21,6 +21,13 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+h2 {
+    font-weight: bold;
+    font-size: 48px;
+}
+h3 {
+    font-weight: bold;
+}
 
 /*navigation*/
 
@@ -85,11 +92,9 @@ nav {
         color: $colot-two;
         
     }
-    h2 {
-        font-weight: bold;
-        font-size: 48px;
-    }
-    h3 {
-        font-weight: bold;
-    }
+    
+   
+}
+.portfolio {
+    text-align: center;
 }
