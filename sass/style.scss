@@ -46,7 +46,6 @@ nav {
             text-decoration: none;
             color: $color-one;
         }
-        
 
 }
 
@@ -84,7 +83,7 @@ nav {
 
 }
 
-/*SERWICES*/
+/*SERvICES*/
 
 
 .services {
@@ -116,7 +115,8 @@ nav {
 
         
 }
-   
+ /*footer*/
+
 footer {
     padding: 40px 0;
     ul {
@@ -127,6 +127,9 @@ footer {
         line-height: 60px;
         width: 60px;
         text-align: center;
+        margin: 0 5px;
+        
+        
     }
     i {
         font-size: 32px;
@@ -142,6 +145,8 @@ footer {
     p {
         text-align: center;
     }
-    
+    a {
+        font-size: 0;
+    }   
 
 }
